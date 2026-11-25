@@ -4,7 +4,11 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi==0.110.2",
+    "python-multipart==0.0.9",
+    "uvicorn[standard]==0.29.0",
+]
 
 [project.scripts]
 mini-rag-app = "mini_rag_app:main"
